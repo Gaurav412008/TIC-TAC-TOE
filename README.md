@@ -50,30 +50,4 @@ This ensures the original board state is preserved.
 5. Choosing the Best Move
 def AI(board):
 
-Steps:
 
-Try all empty positions
-Run minimax for each move
-Select the move with the highest score
-Concepts Used
-Recursion
-Backtracking
-Game Trees
-Heuristic Evaluation
-Depth-based scoring
-Features
-Human vs AI gameplay
-Optimal AI (cannot be beaten)
-Detects win, loss, and draw conditions
-Simple command-line interface
-How to Run
-Install Python
-Save the file as tictactoe.py
-Run:
-python tictactoe.py
-Example Gameplay
-X | - | -
-----------
-- | O | -
-----------
-- | - | -
